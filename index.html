@@ -4,62 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Your Name</title>
-  
-  <!-- removing link to the css file to replace with bootstrap css link 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<!-- adding color to the background, couldn't find the wallpaper background-->
-<body class="p-3 mb-2 bg-light text-dark">
+<body>
+
   <header id="masthead">
     <div class="container">
-      <!-- find out what this next line is doing. Why is the anchor tag self-referencing?-->
-      <!-- <a href="index.html" id="logo">Your Name</a> -->
-
-      <!-- the nav bad contains links to 3 pages for About, portfolio and contact -->
+      <a href="index.html" id="logo">Your Name</a>
       <nav>
-        <!-- 
-          <a href="index.html">About</a> 
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        -->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Your Name</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-
-              <!-- If I change the class in the list to "nav-item" will display the *About* text in light grey as oppposed to black <li class="nav-item active"> -->
-                <li class="nav-item"></li>
-                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <div id="main-container" class="container">
-    
-
     <section class="main-section">
       <h1>About Me</h1>
-      <img src="images/cat.jpg" class="rounded float-left" alt="...">
 
-      <!-- <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name"> -->
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
