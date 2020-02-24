@@ -80,3 +80,18 @@ h1.responsive-fix {
     background: #4aaaa5;
     border: 0 none;
 }
+
+/* portfolio style for images*/
+.thumbnail {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
