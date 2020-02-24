@@ -82,16 +82,24 @@ h1.responsive-fix {
 }
 
 /* portfolio style for images*/
+
 .thumbnail {
+    position: relative;
     width: 100%;
     border: 0 none;
     opacity: 0.8;
-  }
 }
 
 .caption {
     position: absolute;
-    top: 45%;
-    left: 0;
+    bottom: 20px;
     width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
