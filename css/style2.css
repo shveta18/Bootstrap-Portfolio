@@ -48,13 +48,24 @@ body {
     }
 
 
-    .image {
-        float: left;
+    .img-fluid {
+        /*float: left; */
         width: 250px;
         height: auto;
         margin-top: 10px;
         margin-right: 25px;
       }
     
-     
-  
+     .navbuttons {
+         color: #999;
+         text-align: center;
+         line-height: 90px;
+
+     }
+     h1.responsive-fix {
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-weight: 700;
+        color: #4aaaa5;
+        border-bottom: 3px solid #dddddd;
+        padding-top: 20px;
+    }

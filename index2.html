@@ -3,26 +3,52 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Your Name</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style2.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> !-->
+  
+
 
 </head>
 
 <body>
-<!--Header is 1 row containing individual columns for logo (L): ID "logo", About Me, Portfolio, Contact (All R): ID "navbuttons" links-->
+<!--Header is 1 row containing individual columns for logo (L): ID "logo" of length 6; About Me, Portfolio, Contact (total length 6)-->
   <header id="masthead">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <a href="index.html" id="logo">Your Name</a> </div>
-          <div class="col-md-2 navbuttons">
-            <a href="index.html">About</a></div>
-            <div class="col-md-2 navbuttons">
-            <a href="portfolio.html">Portfolio</a></div>
-            <div class="col-md-2 navbuttons">
-            <a href="contact.html">Contact</a></div>
+          <a href="index2.html" id="logo">Your Name</a> 
+        </div>
+          
+          <div class="col-md-6">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index2.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio2.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+           <!--  <a href="index.html">About</a>
+          
+            
+            <a href="portfolio.html">Portfolio</a>
+          
+            
+            <a href="contact.html">Contact</a> -->
           </div>
         
         </div>
@@ -39,11 +65,11 @@
             <!-- within this 1 main column, 2 sub-rows exist -->
             <div class="row" >
               <div class="col-md-12"> <!--occupies the entire row-->
-            <h1>About Me</h1> <!--sub row #1-->
+            <h1 class="responsive-fix">About Me</h1> <!--sub row #1-->
             </div>
             </div>
             <div class="row">
-            <img src="images/cat.jpg" class="image" alt="Cat pic"> <!--make sure img fits into container. Q: How to get the text to flow around? -->
+            <img src="images/cat.jpg" class="img-fluid" alt="Responsive image"> <!--make sure img fits into container. Q: How to get the text to flow around? -->
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
@@ -66,6 +92,10 @@
       </div>
     </div>
   </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
